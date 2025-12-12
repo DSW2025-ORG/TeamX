@@ -1,0 +1,23 @@
+# Ignoră mediul virtual
+venv/
+.env/
+
+# Ignoră date brute sau mari
+data/
+*.csv
+*.parquet
+*.xlsx
+
+# Ignoră fișiere temporare din notebook-uri
+.ipynb_checkpoints/
+
+# Ignoră fișiere Python compilate
+__pycache__/
+*.pyc
+
+# Ignoră cache-uri VS Code
+.vscode/
+
+# Ignoră fișiere OS
+.DS_Store
+Thumbs.db
